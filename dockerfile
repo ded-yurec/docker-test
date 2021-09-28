@@ -6,4 +6,4 @@ LABEL maintainer="dedyurec"
 
 EXPOSE 2222 3000 9090 9093
 
-CMD ["nginx", "/usr/sbin/init"]
+CMD ["/usr/sbin/init"]
